@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+header h1 {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+header p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.image {
+  text-align: center;
+}
+
+.cake-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.row h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.block-num {
+  padding: 3px 8px;
+  border-radius: 7px;
+  margin-right: 5px;
+  background-color: #f2994a;
+  color: #fff;
+}
+
+.instruction-p {
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+form{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.item{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.box {
+  box-shadow: 0 0 15px rgb(179, 177, 177);
+  position: relative;
+  max-width: 40%;
+  margin: 30px auto;
+  text-align: left;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box p {
+  line-height: 6px;
+}
+
+.grey {
+  color: grey;
+  font-weight: bold;
+}
+
+.ans{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#box-1::before {
+  background-image: url("/images/spoon.png");
+  position: absolute;
+  background-size: 30px 30px;
+  display: inline-block;
+  max-width: 30px;
+  width: 100%;
+  height: 30px;
+  left: 5px;
+  top: 20px;
+  content: "";
+}
+
+#box-2 {
+  position: relative;
+}
+
+#point-1::before {
+  background-image: url("/images/time.png");
+  position: absolute;
+  background-size: 30px 30px;
+  display: inline-block;
+  max-width: 30px;
+  width: 100%;
+  height: 30px;
+  left: -35px;
+  top: 48px;
+  content: "";
+}
+
+#point-2::before {
+  background-image: url("/images/time.png");
+  position: absolute;
+  background-size: 30px 30px;
+  display: inline-block;
+  max-width: 30px;
+  width: 100%;
+  height: 30px;
+  left: -35px;
+  top: 138px;
+  content: "";
+}
+
+#point-3::before {
+  background-image: url("/images/time.png");
+  position: absolute;
+  background-size: 30px 30px;
+  display: inline-block;
+  max-width: 30px;
+  width: 100%;
+  height: 30px;
+  left: -35px;
+  top: 228px;
+  content: "";
+}
+
+footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.italic{
+  font-style: italic;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+@media only screen and (max-width: 580px) {
+  .container {
+    padding: 20px;
+  }
+  .row {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .box {
+    max-width: 100%;
+  }
+
+  #box-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #point-2::before {
+    top: 48px;
+    left: 108px;
+  }
+
+  #point-3::before {
+    top: 48px;
+    left: 243px;
+  }
+}
