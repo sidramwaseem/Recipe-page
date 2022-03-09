@@ -7,11 +7,13 @@ Challenge Link: https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht#
 Desktop:
 ![screenshot](https://github.com/sidramwaseem/Recipe-page/blob/main/Previews/desktop-preview.png?raw=true)
 
-Mobile:
+Mobile:<br>
 ![screenshot](https://github.com/sidramwaseem/Recipe-page/blob/main/Previews/mobile-preview.png?raw=true)
 
 
 <h2>Technologies used</h2>
--HTML
--CSS
--BOOTSTRAP
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>BOOTSTRAP</li>
+</ul>
